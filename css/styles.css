@@ -1,0 +1,216 @@
+main{
+          padding-bottom:1rem;
+          padding-top: 64px;
+        }
+        .card, .modal:not(.datepicker-modal){
+          padding: .5rem;
+          border-radius: .3rem;
+        }
+        .marker{
+          cursor: pointer !important;
+        }
+        .modal-alert{
+          max-width: 350px;
+        }
+        nav {
+          padding-left: 1rem;
+        }
+        .bold{
+          font-weight: bold;
+        }
+        .padding-1{
+          padding: 1rem !important;
+        }
+        .hoverable{
+          cursor: pointer;
+        }
+        .card-info .center,.card-info .preloaded{
+          padding: 1rem;
+        }
+        .card-info .preloaded{
+          padding: 1rem;
+        }
+.banner > div > img{
+  width: 100%;
+}
+.background-index{
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+.rounded-1{
+      border-radius: 1.5rem;
+    }
+    .unbordered{
+      border: none !important;
+    }
+    .nomargin{
+      margin: 0 !important;
+    }
+    .nopadding{
+      padding: 0 !important;
+    }
+    .nomargin-bottom{
+      margin-bottom: 0 !important;
+    }
+@font-face {
+  font-family: oldEnglish;
+  src: url(../fonts/canter.ttf);
+}
+html, body, .block {
+    height: 100%;
+  }
+.pinned{
+  top: 64px !important;
+}
+.parallax-container .parallax{
+  z-index: 1 !important;
+}
+.card-categorys-container{
+  width: fit-content;
+}
+.container-search{
+  height: 19.0625rem;
+  background-size: cover;
+  padding:1rem;
+  padding-top: 2.5 rem;
+  min-height: 100%;
+}
+    .form-search input::-webkit-input-placeholder { /* Edge */
+      color: #757575;
+    }
+    .big-title{
+      margin: auto;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      position: absolute;
+    }
+
+    .form-search input::-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #757575;
+    }
+    .form-search input{
+      display: block;
+      padding: 0;
+      height: 100% !important;
+    }
+
+    .form-search::placeholder {
+      color: #757575;
+    }
+    @media only screen and (max-width: 600px) {
+      .search-box{
+        background-position: left !important;
+      }
+      .container{
+        padding:0;
+        width: 100%;
+      }
+      .container-search{
+        height: calc(100vh - 60px);
+        width: 100%;
+      }
+    }
+    .custom-green{
+      background-color: rgb(14, 94, 0) !important;
+    }
+    .container-search{
+      height: calc(100vh - 64px);
+      width: 100%;
+    }
+    .card-search-result{
+      padding-top: 0 !important;
+    }
+.carousel.carousel-slider{
+  height: 350px !important;
+}
+.btn-floating.halfway-fab{
+  right: 12px !important;
+}
+
+.btn-add-remove-cant{
+  padding: .5rem;
+  border: 2px solid red;
+  border-radius: 1rem;
+  width: 100%;
+  height: calc(40px + 1.1rem);
+  width: fit-content;
+  margin: 1rem;
+}
+
+.btn-add-remove-cant > input{
+  color: red;
+  width: calc(100% - 80px);
+  margin: 0 !important;
+  margin-top: .3rem !important;
+  font-size: 1.4rem;
+  padding: 0 !important;
+  font-weight: bold;
+  border:none;
+}
+.btn-add-remove-cant > input::-webkit-outer-spin-button,
+.btn-add-remove-cant > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn-add-remove-cant > input {
+  -moz-appearance: textfield;
+}
+.btn-add-remove-cant > input:focus{
+  border:none !important;
+  overflow: hidden !important; 
+  outline: none;
+}
+
+
+.form-search{
+  height: calc(56px /2) !important;
+  line-height: calc(56px /2) !important;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+.brand-logo{
+    border-radius: 50%;
+    padding: .3rem !important;
+    margin-left: 2rem;
+    height: calc(128px - .5rem);
+    width: calc(128px - .5rem);
+  }
+
+@media only screen and (min-width: 601px){
+  .form-search{
+      height: calc(64px - 2rem) !important;
+      line-height: calc(64px - 2rem) !important;
+  }  
+  nav{
+    padding-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 601px){
+  .text-header_old{
+    font-size: 4rem !important;
+  }
+  nav{
+    padding-left: 0 !important;
+    padding-right: 1rem;
+  }
+  main{
+          padding-bottom:1rem;
+          padding-top: 56px;
+        }
+  .container-search{
+    height: calc(100vh - 56px) !important;
+    margin-top: 56px !important;
+  }
+  .big-title{
+    font-size: 9rem !important;
+  }
+  .card-categorys-container{
+    width: 100%;
+  }
+}
